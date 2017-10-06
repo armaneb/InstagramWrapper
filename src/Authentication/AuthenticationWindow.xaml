@@ -1,0 +1,13 @@
+﻿<Window x:Class="InstagramWrapper.Authentication.AuthenticationWindow"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:InstagramWrapper.Authentication"
+             mc:Ignorable="d" WindowStyle="None"
+             Height="600" Width="800" WindowStartupLocation="CenterScreen">
+    <DockPanel>
+        <ProgressBar Name="pbLoading" DockPanel.Dock="Bottom" IsIndeterminate="True" Height="5" Visibility="Hidden" />
+        <WebBrowser Name="webBrowser" Navigating="WebBrowser_Navigating" Navigated="WebBrowser_Navigated"/>
+    </DockPanel>
+</Window>
