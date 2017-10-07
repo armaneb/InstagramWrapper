@@ -1,5 +1,6 @@
 # InstagramWrapper
-InstagramWrapper is a complete, well-designed wrapper around Instagram APIs for .Net (written by C#).
+<p>Install using nuget:</p>
+https://www.nuget.org/packages/Smile.InstagramWrapper/
 
 <H3>Usage:</H3>
 Depending on whether you have AccessToken or not, you have two choices:
